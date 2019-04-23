@@ -26,399 +26,52 @@
     <style>
 
       /* custom styles here */
+      
+      body{
+        height: 10000px;
+      }
+      .sidebar{
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .sidebar > *{
+        position:fixed;
+        max-width: 30vw;
+      }
+      
+      #main-content{
+        margin-left: 30vw;
+      }
 
     </style>
   </head>
   <body>
     
-
-    <!-- Main header -->
-    <header class="text-center full-screen dark-shade text-white">
-      <h1 class="mt-40">Title of Project</h1>
-      <p class="lead">Here is a tagline of the project</p>
-
-      <video class="background-video" loop muted autoplay playsinline preload>
-        <source src="assets/background-video.mp4" type="video/mp4">
-      </video>
-
-    </header>
-
-
-
-    <!-- start of body text -->
-    <div class="container mt-5">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
-
-          <h2>Lorem ipsum dolor sit amet</h2>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <p><a data-toggle="collapse" href="#document-1">See document here.</a></p>
-
-          <p class="collapse border" id="document-1">
-            <img src="https://i.postimg.cc/P5dmyYpK/document.png" class="img-fluid d-block" alt="document">
-          </p>
-
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <!-- video embed -->
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/268080687" width="640" height="360" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
-          </div>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </div><!-- closes .col12 etc -->
-      </div><!-- closes .row.justify-content-center -->
-    </div><!-- closes .container -->
-
-
-
-
-    <!-- Map example -->
-    <div class="container mt-5">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-10">
-
-          <!-- Example of map embed -->
-          <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="https://public.carto.com/viz/397fd294-a82b-4470-90cc-6153ebad5bf6/embed_map" width="640" height="360" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
-          </div>
-
-
-        </div><!-- closes .col12 etc -->
-      </div><!-- closes .row.justify-content-center -->
-    </div><!-- closes .container -->
-
-
-
-
-    <!-- more text -->
-    <div class="container mt-5">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-          <!-- right justified photo, adjusts back for mobile -->
-          <figure class="row justify-content-end">
-            <div class="col-12 col-sm-6 order-sm-1 order-2">
-              <figcaption class="text-sm-right">Here is a caption for the right photo. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </figcaption>
-            </div>
-            <div class="col-12 col-sm-6 order-sm-2 order-1">           
-                <img src="assets/placeholder.svg" class="img-fluid d-block">
-            </div>
-          </figure>
-
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-          <!-- align left photo with text wrap -->
-          <div class="w-50 mr-4 float-left">
-            <figure>
-              <img src="assets/placeholder.svg" class="img-fluid d-block">
-              <figcaption>Here is a caption for the right photo. </figcaption>
-            </figure>
-          </div>
-
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <!-- align right photo with text wrap -->
-          <div class="w-75 ml-4 float-right pull-right">
-            <figure>
-              <img src="assets/placeholder.svg" class="img-fluid d-block">
-              <figcaption>Here is a caption for the right photo. </figcaption>
-            </figure>
-          </div>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-
-        </div><!-- closes .col12 etc -->
-      </div><!-- closes .row.justify-content-center -->
-    </div><!-- closes .container -->
-
-
-    <!-- fullscreen photo -->
-    <figure>
-      <img src="assets/placeholder.svg" class="img-fluid d-block">
-      <figcaption>Here is a caption for the above photo</figcaption>
-    </figure>
-
-
-    <div class="container mt-5">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
-          <!-- Carousel Example (uncomment for captions) -->
-          <h5>Carousel Example</h5>
-          <div id="carousel-1" class="carousel slide" data-ride="carousel" data-interval="false">
-            <ol class="carousel-indicators">
-              <!-- Add additional <li> tags for each indicator -->
-              <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-1" data-slide-to="1"></li>
-              <li data-target="#carousel-1" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/placeholder.svg" class="d-block w-100" alt="Placeholder image">
-                <!--                   
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </div>
-                 -->
-              </div>
-              <div class="carousel-item">
-                <img src="assets/placeholder.svg" class="d-block w-100" alt="Placeholder image">
-                <!-- 
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                -->
-              </div>
-              <div class="carousel-item">
-                <img src="assets/placeholder.svg" class="d-block w-100" alt="Placeholder image">
-                <!-- 
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
-                 -->
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
-          </div>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </div><!-- closes .col12 etc -->
-      </div><!-- closes .row.justify-content-center -->
-    </div><!-- closes .container -->
-
-
-
-    <div class="container mt-5">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </div><!-- closes .col12 etc -->
-      </div><!-- closes .row.justify-content-center -->
-    </div><!-- closes .container -->
-
-
-    <div class="container">
-      <div class="row justify-content-center">
-
-        <div class="col-6 col-sm-4 mb-4">
-          <a data-toggle="modal" data-target="#lightbox">
-            <img src="assets/placeholder.svg" class="img-fluid d-block">
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-4 mb-4">
-          <a data-toggle="modal" data-target="#lightbox">
-            <img src="assets/placeholder.svg" class="img-fluid d-block">
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-4 mb-4">
-          <a data-toggle="modal" data-target="#lightbox">
-            <img src="assets/placeholder.svg" class="img-fluid d-block">
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-4 mb-4">
-          <a data-toggle="modal" data-target="#lightbox">
-            <img src="assets/placeholder.svg" class="img-fluid d-block">
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-4 mb-4">
-          <a data-toggle="modal" data-target="#lightbox">
-            <img src="assets/placeholder.svg" class="img-fluid d-block">
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-4 mb-4">
-          <a data-toggle="modal" data-target="#lightbox">
-            <img src="assets/placeholder.svg" class="img-fluid d-block">
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-4 mb-4">
-          <a data-toggle="modal" data-target="#lightbox">
-            <img src="assets/placeholder.svg" class="img-fluid d-block">
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-4 mb-4">
-          <a data-toggle="modal" data-target="#lightbox">
-            <img src="assets/placeholder.svg" class="img-fluid d-block">
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-4 mb-4">
-          <a data-toggle="modal" data-target="#lightbox">
-            <img src="assets/placeholder.svg" class="img-fluid d-block">
-          </a>
-        </div>
-
-      </div>
-    </div>
-
-
-    <!-- Light box that pops up. Leave empty. JavaScript at the bottom of page will populate it. -->
-    <div class="modal fade" id="lightbox">
-      <div class="modal-dialog modal-dialog-centered modal-lg">
-        <div class="modal-content">
-          <button type="button" class="close" data-dismiss="modal" style="margin: 0 5px 0 auto;">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <div class="modal-body">
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-        </div><!-- closes .col12 etc -->
-      </div><!-- closes .row.justify-content-center -->
-    </div><!-- closes .container -->
-
-
+    
+    <div class="sidebar">
+        
+        <img data-anchor-target="#main-content" 
+             data-900="transform:translate(0px,0px);"
+             data-1000="transform:translate(-200px,0px);"
+             src="assets/sidebar-1.svg">
+      
+        <img data-anchor-target="#main-content" src="assets/sidebar-1.svg" class="img-fluid">
+        <img data-anchor-target="#main-content" src="assets/sidebar-1.svg" class="img-fluid">
+        <img data-anchor-target="#main-content" src="assets/sidebar-1.svg" class="img-fluid">
+        <img data-anchor-target="#main-content" src="assets/sidebar-1.svg" class="img-fluid">
+        
+    </div>  
+    
+    
+    
+    <div id="main-content">
+      <div class="row"></div>
+      
+      <div style="margin-top:2000px;">Something here.å</div>
+      
+    
+    </div><!-- closes container-fluid -->
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/skrollr.min.js"></script>
